@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Meat Party",
+    "toppings": [
+      "sausage",
+      "pepperoni",
+      "meatballs"
+    ],
+    "size": "10\""
+  },
+  {
+    "name": "Veggie Party",
+    "toppings": [
+      "bell pepper",
+      "olives",
+      "tomatoes"
+    ],
+    "size": "10\""
+  }
+]
