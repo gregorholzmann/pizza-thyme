@@ -17,6 +17,8 @@
     "nuxt": "^1.0.0"
   },
   "devDependencies": {
+    "@nuxtjs/onesignal": "^2.0.0",
+    "@nuxtjs/pwa": "^2.0.8",
     "babel-eslint": "^8.2.1",
     "eslint": "^4.15.0",
     "eslint-friendly-formatter": "^3.0.0",

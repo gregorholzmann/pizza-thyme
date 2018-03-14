@@ -24,7 +24,7 @@ module.exports = {
     /*
     ** Run ESLint on save
     */
-    extend (config, { isDev, isClient }) {
+    extend(config, { isDev, isClient }) {
       if (isDev && isClient) {
         config.module.rules.push({
           enforce: 'pre',
@@ -32,6 +32,21 @@ module.exports = {
           loader: 'eslint-loader',
           exclude: /(node_modules)/
         })
+      }
+    }
+  },
+  modules: [
+    '@nuxtjs/onesignal',
+    '@nuxtjs/pwa',
+  ],
+
+  // Options
+  oneSignal: {
+    init: {
+      appId: '7ccd76a3-2bbc-4046-8246-1757b55c8e18',
+      allowLocalhostAsSecureOrigin: true,
+      welcomeNotification: {
+        disable: false
       }
     }
   }
